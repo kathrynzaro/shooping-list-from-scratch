@@ -3,6 +3,7 @@ import { createListItem, logout } from '../fetch-utils.js';
 const form = document.querySelector('.item-form');
 const error = document.getElementById('error');
 const logoutBtn = document.getElementById('logout-btn');
+const listBtn = document.getElementById('list-button');
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -18,4 +19,8 @@ form.addEventListener('submit', async (e) => {
 logoutBtn.addEventListener('click', () => {
     logout();
 });
+
+listBtn.addEventListener('click', () => {
+    window.location.href = '/list';
+})
 
