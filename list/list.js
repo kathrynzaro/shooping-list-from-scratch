@@ -1,4 +1,4 @@
-import { checkAuth, logout, fetchListItems, updateItem } from '../fetch-utils.js';
+import { checkAuth, logout, fetchListItems, updateItem, deleteAllItems } from '../fetch-utils.js';
 import { renderItem } from '../render-utils.js';
 
 checkAuth();
@@ -13,6 +13,13 @@ const createButton = document.getElementById('create');
 
 createButton.addEventListener('click', () => {
     window.location.href = '/create';
+});
+
+const deleteBtn = document.getElementById('delete-btn');
+
+deleteBtn.addEventListener('click', async () => {
+    await deleteAllItems();
+    displayListItems();
 });
 
 const shoppingListEl = document.getElementById('shopping-list');
