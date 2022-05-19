@@ -1,7 +1,8 @@
-import { createListItem } from '../fetch-utils.js';
+import { createListItem, logout } from '../fetch-utils.js';
 
 const form = document.querySelector('.item-form');
 const error = document.getElementById('error');
+const logoutBtn = document.getElementById('logout-btn');
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -12,5 +13,9 @@ form.addEventListener('submit', async (e) => {
     } else {
         error.textContent = 'quick go debug something!';
     }
+});
+
+logoutBtn.addEventListener('click', () => {
+    logout();
 });
 
