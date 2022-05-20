@@ -13,13 +13,14 @@ body {
     --color4: hsla(45, 73%, 98%, 1);
     --color5: hsla(224, 40%, 79%, 1); */
     
-    --header-height: 80px;
+    --header-height: 250px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    font-family: 'Chicle', cursive;
+    background-color: black;
+    color: antiquewhite;
 }
 
 main {
@@ -27,7 +28,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: calc(var(--footer-height));
 }
 
 section {
@@ -47,10 +47,12 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
+    justify-content: flex-start;
+    background-color: black;
     height: var(--header-height);
     box-shadow: var(--shadow);
+    color: red;
+    margin-left: 20px;
 }
 
 h2 {
@@ -66,9 +68,6 @@ h2 {
     animation: pulse 5s infinite ease-in-out;
 }
 
-header img {
-    height: var(--header-height);
-}
 
 p {
     margin: var(--gutter);
@@ -114,11 +113,12 @@ footer {
 .auth-main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .auth-container {
-    margin: 10px;
+    margin: 20px;
 }
 
 .auth-container form {
