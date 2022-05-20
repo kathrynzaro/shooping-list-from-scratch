@@ -22,5 +22,5 @@ logoutBtn.addEventListener('click', () => {
 
 listBtn.addEventListener('click', () => {
     window.location.href = '/list';
-})
+});
 

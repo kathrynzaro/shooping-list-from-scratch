@@ -3,6 +3,10 @@
     color: rgb(84, 160, 241);
 }
 
+.complete:hover {
+    color: rgb(84, 160, 241); 
+}
+
 header {
     height: 200px;
 }
@@ -50,12 +54,14 @@ button {
 
 div {
     font-size: 1.7rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 2px;
 }
 
 div:hover {
     cursor: pointer;
+    opacity: .6;
+    color: rgb(255, 204, 0);
 }
 
 #delete-btn {
@@ -79,4 +85,8 @@ div:hover {
 button:hover {
     opacity: .5;
     cursor: pointer;
+}
+
+div:hover {
+   
 }

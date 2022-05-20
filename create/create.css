@@ -58,7 +58,7 @@ input {
     border-radius: 5px;
     margin: 10px 20px 40px;
     font-family: 'Chicle', cursive;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 1.4rem;
     letter-spacing: 2px;
     text-align: center;
