@@ -41,7 +41,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 450px;
+    width: 350px;
     padding: 50px;
     font-size: 2rem;
     border: 9px solid rgb(84, 160, 241);
@@ -84,7 +84,7 @@ label {
 }
 
 .item-form button {
-    margin: 40px 70px 0px;
+    margin: 20px 50px 0px;
     font-family: 'Chicle', cursive;
     background-color: rgb(84, 160, 241);
     color: antiquewhite;
