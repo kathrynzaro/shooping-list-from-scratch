@@ -30,7 +30,7 @@ main {
     border-radius: 20px;
     outline: 9px solid rgb(255, 204, 0);
     width: 300px;
-    min-height: 500px;
+    /* min-height: 500px; */
     text-align: center;
 }
 
