@@ -8,7 +8,7 @@
 }
 
 header {
-    height: 200px;
+    height: 100px;
 }
 
 body {
@@ -76,6 +76,7 @@ div:hover {
 
 #logout {
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 #logout:hover {
@@ -85,8 +86,4 @@ div:hover {
 button:hover {
     opacity: .5;
     cursor: pointer;
-}
-
-div:hover {
-   
 }

@@ -105,7 +105,7 @@ button:hover {
 
 #peppers {
     transform: scaleX(-1);
-    margin: 50px 50px 0;
+    margin: 50px 50px 100px;
 }
 
 #error {
