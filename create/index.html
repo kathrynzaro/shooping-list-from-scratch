@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Chicle&family=Comfortaa:wght@300&family=Great+Vibes&family=IM+Fell+French+Canon&family=IM+Fell+French+Canon+SC&family=Inconsolata:wght@200&family=Josefin+Sans&family=Limelight&family=Poiret+One&family=Press+Start+2P&family=Raleway:wght@100&family=Roboto+Mono:wght@100&family=Space+Mono&family=Tenor+Sans&family=VT323&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="./create.css">
+    <title>PIZZA?!</title>
+</head>
+<body>
+    <header>
+        <!-- <img id="peppers" src="/assets/peppers.png" width="250px" height="150px"> -->
+        <h1>whatcha <br> need?</h1>
+        <div id="nav">
+            <button id="logout-btn">logout</button>
+            <button id="list-button">view list</button>
+        </div>
+    </header>
+    <main>
+        <form class="item-form">
+            <label>
+                name:
+                <input name="name" placeholder="peppers"/>
+            </label>
+            <label>
+                quantity:
+                <input type="number" name="qty" min="0" placeholder="77" />
+            </label>
+            <button>add item</button>
+            <p id="error"></p>
+        </form>
+        <img id="peppers" src="/assets/peppers.png" width="550px" height="250px">
+    </mai>
+    <script src="./create.js" type="module"></script>
+</body>
+</html>

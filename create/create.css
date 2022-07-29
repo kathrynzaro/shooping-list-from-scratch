@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    font-family: 'Chicle', cursive;
+    color: antiquewhite;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 10px 0px 50px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+h1 {
+    color: red;
+    text-transform: capitalize;
+    font-size: 6rem;
+    letter-spacing: 8px;
+    margin-left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    padding: 50px;
+    font-size: 2rem;
+    border: 9px solid rgb(84, 160, 241);
+    border-radius: 20px;
+    outline: 9px solid rgb(255, 204, 0);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input {
+    padding: 8px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 20px 40px;
+    font-family: 'Chicle', cursive;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav button {
+    background-color: rgb(255, 204, 0);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 20px;
+    letter-spacing: 1px;
+    margin: 10px;
+    font-family: 'Chicle', cursive;
+    /* box-shadow: 0px 0px 10px 1px rgba(255, 254, 251, 0.859); */
+}
+
+.item-form button {
+    margin: 20px 50px 0px;
+    font-family: 'Chicle', cursive;
+    background-color: rgb(84, 160, 241);
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 15px;
+    letter-spacing: 1px;
+    /* box-shadow: 0px 0px 10px 1px rgba(255, 254, 251, 0.859); */
+}
+
+button:hover {
+    opacity: .5;
+    cursor: pointer;
+    background-color: red;
+}
+
+#peppers {
+    transform: scaleX(-1);
+    margin: 50px 50px 100px;
+}
+
+#error {
+    text-align: center;
+    text-transform: none;
+    color: red;
+    font-size: 1rem;
+}
+
